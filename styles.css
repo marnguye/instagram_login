@@ -1,0 +1,268 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	padding: 25px;
+	width: 55%;
+}
+
+input {
+	font-size: 18px;
+	width: 350px;
+	height: 40px;
+	margin-top: 10px;
+	border: 1.5px solid #C0C0C0;
+	border-radius: 4px;
+	border-color: #C0C0C0;
+	outline: none;
+}
+
+
+.login_box {
+	width: 400px;
+	height: 550px;
+	padding: 20px;
+	border: 0.5px solid #C0C0C0;
+	align-items: center;
+	text-align: center;
+	margin-top: 140px;
+	margin-left: 800px;
+	font-family: 'arial';
+	font-size: 18px;
+}
+
+button {
+	margin-top: 20px;
+	font-family: 'arial';
+	font-size: 18px;
+	width: 360px;
+	height: 45px;
+	background-color: #00BFFF;
+	border-radius: 10px;
+	border: 0;
+}
+
+.report p {
+	margin: 5px;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	border-radius: 4px;
+	color: #C0C0C0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.divider {
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.divider:before {
+	content: "";
+	display: block;
+	border-top: 1px solid #C0C0C0;
+	width: 140px;
+	position: absolute;
+	margin-left: 23px;
+	top: 50%;
+	left: 0;
+	right: 0;
+	font-size: 18px;
+}
+
+.divider2:before {
+	content: "";
+	display: block;
+	border-top: 1px solid #C0C0C0;
+	width: 140px;
+	position: absolute;
+	margin-left: 237px;
+	top: 50%;
+	left: 0;
+	right: 0;
+	font-size: 18px;
+}
+
+.login_fb {
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.fb_login {
+	color: #1E90FF;
+}
+
+.forgot_password {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.pass_forgot {
+	color: #1E90FF;
+}
+
+.illegal {
+	color: #1E90FF;
+}
+
+.sign_up {
+	color: #1E90FF;
+
+}
+
+.signup_box {
+	width: 400px;
+	height: 35px;
+	padding: 20px;
+	border: 0.5px solid #C0C0C0;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 800px;
+	font-family: 'arial';
+	font-size: 20px;
+}
+
+.report {
+	margin-top: 0;
+	gap: 0;
+	text-decoration: none;
+}
+
+.rep {
+	margin: 0;
+	padding: 0;
+}
+
+.download {
+	float: right;
+	margin-right: 400px;
+	width: 420px;
+}
+
+
+.app {
+	text-align: center;
+	margin-right: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.stores {
+	width: 150px;
+	height: 50px;
+	margin-right: 5px;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.phones {
+	position: relative;
+}
+
+.iphone,
+.xiaomi {
+	position: absolute;
+}
+
+.videocam {
+	position: absolute;
+	display: flex;
+	margin-left: 324px;
+	margin-top: 50px;
+	z-index: 4;
+	border-radius: 42px;
+}
+
+.iphone {
+	width: 400px;
+	height: 737px;
+	align-items: center;
+	display: flex;
+	margin-left: 300px;
+	margin-right: 400px;
+	margin-top: 30px;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.notch {
+	position: absolute;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 402px;
+	z-index: 6;
+	width: 20px;
+	height: 33px;
+}
+
+.xiaomi {
+	width: 350px;
+	height: 720px;
+	display: flex;
+	margin-top: 16px;
+	float: left;
+	margin-left: 180px;
+	margin-bottom: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.signup {
+	font-weight: bold;
+}
+
+.login {
+	font-weight: bold;
+	color: white;
+}
+
+.links {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 200px;
+	gap: 20px;
+}
+
+select {
+	display: flex;
+	margin-top: 10px;
+	margin-left: 500px;
+	color: #C0C0C0;
+	border: 0;
+}
+
+.txt {
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 600px;
+	margin-top: -32px;
+	color: #C0C0C0;
+}
+
+.bellow {
+	display: flex;
+	margin-left: 67px;
+	font-size: 14px;
+}
