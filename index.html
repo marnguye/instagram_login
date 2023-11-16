@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram login</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+</head>
+
+<body>
+	<div class="video">
+		<div class="notch">
+			<img src="notch.png" alt="notch_iphone">
+		</div>
+		<video class="videocam" id="webcam" autoplay playsinline width="355" height="700"></video>
+	</div>
+	<div class="phones">
+		<img class="iphone" src="iphone.png" alt="iphone_img">
+		<img class="xiaomi" src="xiaomi.jpeg" alt="xiaomi_img">
+	</div>
+	<div class="login_box">
+		<div class="ig_box">
+			<img class="logo" src="ig_logo.png" alt="ig_logo">
+		</div>
+		<div class="login">
+			<input type="text" name="username" id="username" placeholder="Phone number, username, email">
+		</div>
+		<div class="password">
+			<input type="password" name="pass" id="pass" required placeholder="Password">
+		</div>
+		<button class="login">Log in</button>
+		<div class="divider">
+			<span></span>
+			<p>OR</p><span></span>
+			<div class="divider2"></div>
+		</div>
+		<div class="login_fb">
+			<a class="fb_login" href="https://www.facebook.com/login/">Log in via Facebook</a>
+		</div>
+		<div class="forgot_password">
+			<a class="pass_forgot" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+		</div>
+		<div class="report">
+			<p class="rep">You can also <a class="illegal" href="https://help.instagram.com/2922067214679225">report
+					content
+					that you believe is </a>
+			<p class="rep"></a><a class="illegal" href="https://help.instagram.com/2922067214679225">unlawful</a> in
+				your
+				country
+				without having to
+				log in.</p>
+			</p>
+		</div>
+	</div>
+	<div class="signup_box">
+		<span class="account">Don't have an account? </span><span class="signup"><a class="sign_up"
+				href="https://www.instagram.com/accounts/emailsignup/" alt="">Sign
+				up</a></span>
+	</div>
+	<div class="download">
+		<p class="app">Get the app</p>
+		<a href="https://apps.apple.com/us/app/instagram/id389801252?vt=lo"><img class="stores"
+				src="appstore_icon.jpe	g" alt="appstore"></a>
+		<a
+			href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D0C2069CE-F65A-414F-A163-76B6E714F9D0%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps://www.instagram.com/&pli=1"><img
+				class="stores" src="googleplay_icon.png" alt="googleplay"></a>
+	</div>
+	<script>
+		const webcamElement = document.getElementById("webcam");
+		const web_cam = new Webcam(webcamElement, "user");
+		web_cam.start();
+	</script>
+	<div class="links">
+		<a href="https://about.meta.com/">Meta</a>
+		<a href="https://about.instagram.com/">About</a>
+		<a href="https://about.instagram.com/blog">Blog</a>
+		<a href="https://about.instagram.com/about-us/careers">Jobs</a>
+		<a href="https://help.instagram.com/">Help</a>
+		<a href="https://developers.facebook.com/docs/instagram">API</a>
+		<a
+			href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacy</a>
+		<a href="https://help.instagram.com/581066165581870/">Terms</a>
+		<a href="https://www.instagram.com/explore/locations/">Locations</a>
+		<a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+		<a href="https://www.threads.net/login">Threads</a>
+		<a href="https://www.facebook.com/help/instagram/261704639352628">Uploading contracts and non-users</a>
+		<a href="https://about.meta.com/technologies/meta-verified/">Meta Verified</a>
+	</div>
+	<div class="bellow">
+		<div class="language">
+			<select name="language" id="language">
+				<option value="1">English</option>
+			</select>
+			<div class="txt">
+				<p class="my_name">© 2023 Instagram from Martin Nguyen</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
